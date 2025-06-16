@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>praveen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h2>Register Here</h2>
+    </div>
+    <form action="file.html" class="form" id="form">
+      <div class="field">
+        <label>Username</label>
+        <input type="text" placeholder="Enter name" id="uname">
+        <span class="material-icons success">check_circle</span>
+        <span class="material-icons error">error</span>
+        <small>Error message</small>
+      </div>
+     <div class="field">
+        <label>Email</label>
+        <input type="email" placeholder="Enter mail" id="email">
+        <span class="material-icons success">check_circle</span>
+        <span class="material-icons error">error</span>
+        <small>Error message</small>
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="password" placeholder="password" id="password">
+        <span class="material-icons success">check_circle</span>
+        <span class="material-icons error">error</span>
+        <small>Error message</small>
+      </div>
+      <div class="field">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="password" id="cpassword">
+        <span class="material-icons success">check_circle</span>
+        <span class="material-icons error">error</span>
+        <small>Error message</small>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="tc" class="terms">
+        <label>I agree to terms and conditions</label>
+        <small>Error message</small>
+      </div>
+      <input type="submit" class="button">
+    </form>
+  </div>
+
+<script src="script.js"></script>
+  <!-- 
+<div style="border: 2px solid black;margin:90px;">hello praneeth</div> -->
+  <!-- <a href="https://www.flaticon.com/free-icons/favicon" title="favicon icons">Favicon icons created by Freepik - Flaticon</a> -->
+  <!-- <img src="https://cdn-icons-png.flaticon.com/128/2037/2037358.png" alt="icon"> -->
+
+
+  <!-- <script>
+   
+   /*SPREAD OPERATOR
+      var arr=[6,4,5,7,54,4233]
+      console.log(arr)
+      console.log(...arr)
+      var arr2=[3,4,...arr]
+      console.log(arr2) */
+     // var s="praveen"
+      //console.log(...s)
+  //    var arr2=[1,5,73,3]
+   //   add(...arr2);
+    //  function add(a,b,c,d){
+    //    console.log(a+b+c+d)
+     // }   */
+      /*EVERY METHOD
+      let places=['kaikaluru','ladakh','akividu','amalapuram']
+      var place=places.every((ele)=>{
+        return ele.startsWith("a");
+      })
+      console.log(place);   */
+    /*FIND METHOD 
+    let places=['kaikaluru','ladakh','akividu','amalapuram']
+    var place =  places.find(function(ele,key,arr){
+      return ele.startsWith("a");
+      //  return ele.endsWith("u");
+      });
+      console.log(place); */
+   /*SOME metoh
+      var place =  places.some(function(ele,key,arr){
+      return ele.startsWith("a");
+      //  return ele.endsWith("u");
+      });
+      console.log(place);  */
+     /*REDUCE METHOD
+     var arr=[10,9,3,5,8]
+    var x = arr.reduce(function(acc,ele){
+       
+          return acc+ele
+      },0)
+      console.log(x) */
+/*
+let fn=document.getElementById('b1')
+fn.addEventListener('click',change) */
+/*function change(event){
+  console.log(event)
+  if(event.key=='a'){
+    alert("a is not allowed")
+  }
+  fn.style.backgroundColor='skyblue';
+}
+*/
+/* function change(){
+  var letters='0123456789ABCDEF';
+  var color='#';
+  for(var i=0;i<6;i++){
+    var r=Math.floor(Math.random()*16);
+    color = color + letters[r]
+  }
+  document.body.style.backgroundColor = color
+}
+*/
+
+/* var x=setTimeout(function(){
+  alert("hi");
+},3000);  */
+//clearInterval(x)
+//console.log("hello") 
+/* var x=setTimeout(test,3000,"praveen");
+console.log("hello");
+function test(name){
+  alert("hi"+name)
+}
+  */
+/* var counter = 1
+  var x=setInterval(test,3000,"praveen");
+console.log("hello");
+function test(name){
+  alert("called"+counter)
+  counter+=1;
+  if(counter > 2){
+    clearInterval(x)
+  }
+}
+  */
+
+/* var birthyears=[2000,2015,2004,2005,2006,2025]
+var ages = birthyears.map(function(ele,index,arr){
+  let age = 2025 - ele
+  return age;
+}) 
+console.table(birthyears)
+console.table(ages) */
+
+//forEach method does not return new array
+//but map function return new array
+
+/*  var birthyears=[2000,2015,2004,2005,2006,2025]
+var ages = birthyears.map(agefind)
+function agefind(ele,index,arr){
+  let age = 2025 - ele
+  return age;
+}
+console.table(birthyears)
+console.table(ages)  */
+
+/* var nums=[1,2,3,4,5,3,8,9]
+var a = nums.filter(function(ele){
+  if(ele > 5){
+    return ele;
+  }
+})
+console.log(a) */
+
+</script> -->
+</body>
+
+</html>
